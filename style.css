@@ -19,11 +19,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 1.5rem;
 }
 
 .container {
-    width: 385px;
-    padding: 40px;
+    box-sizing: border-box;
+    width: clamp(0px, 90%, 440px);
+    padding: clamp(10px, 8%, 40px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +36,6 @@ body {
 
 .profile img {
     max-width: 90px;
-    /* margin-bottom: 0.6rem; */
     border-radius: 100px;
 }
 
@@ -70,6 +71,7 @@ body {
     padding: 1rem 0;
     border-radius: 10px;
     transition: 200ms;
+    cursor: pointer;
 }
 
 .social:hover {
@@ -79,9 +81,5 @@ body {
 
 .social-5 {
     margin-bottom: 0;
-}
-
-.attribution {
-    margin-top: 1.5rem;
 }
 
