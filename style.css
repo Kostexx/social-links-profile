@@ -76,7 +76,7 @@ body {
 
 .social:hover {
     background-color: var(--color-green);
-    color: var(--color-grey-800);
+    color: var(--color-grey-700);
 }
 
 .social-5 {
